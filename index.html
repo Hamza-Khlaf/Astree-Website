@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astree Bracelet - Brasilian Bracelet</title>
+    <meta name="description"
+        content="Discover our collection of unique, handmade bracelets for women and men. Premium quality materials and elegant designs.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <img src="./assets/Logos/2.jpg" alt="Astrée Bracelet Logo" class="logo">
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#products" class="nav__link">Products</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#contact" class="nav__link">B2B</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <div class="nav__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="cart-btn" id="cart-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="m1 1 4 4 2.96 13.05a2 2 0 0 0 2.04 1.95h8.86a2 2 0 0 0 2.04-1.95l2.58-10.05h-14.42">
+                        </path>
+                    </svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+                <button class="nav__toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Here we create Elegance with حب</h1>
+                <p class="hero__subtitle">Discover our collection of unique, handmade bracelets crafted with love and
+                    attention to detail</p>
+                <button class="btn btn--primary hero__cta">Shop Now</button>
+            </div>
+            <div class="hero__image">
+                <div class="hero__decoration"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Collection</h2>
+                <p class="section-subtitle">Each piece is carefully crafted to bring elegance to your style</p>
+            </div>
+
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="women">Women</button>
+                <button class="filter-btn" data-filter="men">Men</button>
+                <button class="filter-btn" data-filter="unisex">Unisex</button>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>At Astree, we believe that Bracelet should tell a story.
+                        <br>Each of our handcrafted bracelets is created with premium materials and meticulous attention
+                        to detail.
+                    </p>
+                    <p>From elegant designs for special occasions to everyday pieces that complement your style, our
+                        collection offers something unique for everyone.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat__number" data-target="4">0</span>
+                            <span class="stat__label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-target="771">0</span>
+                            <span class="stat__label">Happy Customers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-target="350">0</span>
+                            <span class="stat__label">Unique Designs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <img src="./assets/Logos/1.jpg" alt="Handcrafted jewelry">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Enhanced Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you! Reach out with any questions or inquiries.</p>
+            </div>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact__details">
+                            <h4>Email</h4>
+                            <p>contact@astree-tunisie.store</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="contact__details">
+                            <h4>Phone</h4>
+                            <p>+216 28-291-720</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact__details">
+                            <h4>Address</h4>
+                            <p>Tunis, Tunisia</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100077822121238" target="_blank"
+                                class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.675 0H1.325C.593 0 0 .593 0 
+        1.325v21.351C0 23.407.593 24 1.325 
+        24h11.495v-9.294H9.691V11.01h3.129V8.309c0-3.1 
+        1.894-4.788 4.659-4.788 1.325 0 
+        2.463.099 2.795.143v3.24h-1.918c-1.504 
+        0-1.796.715-1.796 1.763v2.313h3.59l-.467 
+        3.696h-3.123V24h6.116C23.407 24 24 
+        23.407 24 22.676V1.325C24 .593 23.407 
+        0 22.675 0z" />
+                                </svg>
+                            </a>
+
+                            <a href="https://www.instagram.com/astree__bracelet/" target="_blank" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__form">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="contact-name">Full Name *</label>
+                                <input type="text" id="contact-name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="contact-email">Email *</label>
+                                <input type="email" id="contact-email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="subject" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="contact-message">Message *</label>
+                            <textarea id="contact-message" name="message" class="form-control" rows="5"
+                                placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="./assets/Logos/3.jpg" alt="Astrée Bracelet Logo" class="logo">
+                    <p>Handcrafted bracelets made with love and premium materials.</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">B2B</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Astree Bracelet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="modal cart-modal hidden" id="cart-modal">
+        <div class="modal__overlay" id="cart-overlay"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3>Shopping Cart</h3>
+                <button class="modal__close" id="cart-close">×</button>
+            </div>
+            <div class="modal__body" id="cart-items">
+                <!-- Cart items will be dynamically inserted -->
+            </div>
+            <div class="modal__footer">
+                <div class="cart-total">
+                    <strong>Total: <span id="cart-total">0.00</span> د.ت</strong>
+                </div>
+                <button class="btn btn--primary btn--full-width" id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal checkout-modal hidden" id="checkout-modal">
+        <div class="modal__overlay" id="checkout-overlay"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3>Checkout</h3>
+                <button class="modal__close" id="checkout-close">×</button>
+            </div>
+            <div class="modal__body">
+                <form class="checkout-form" id="checkout-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="customer-name">Full Name</label>
+                            <input type="text" id="customer-name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="customer-email">Email</label>
+                            <input type="email" id="customer-email" name="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="customer-phone">Phone</label>
+                            <input type="tel" id="customer-phone" name="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="customer-city">City</label>
+                            <input type="text" id="customer-city" name="city" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="customer-address">Address</label>
+                        <textarea id="customer-address" name="address" class="form-control" rows="3"
+                            required></textarea>
+                    </div>
+                    <div class="order-summary" id="order-summary">
+                        <!-- Order summary will be inserted here -->
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
